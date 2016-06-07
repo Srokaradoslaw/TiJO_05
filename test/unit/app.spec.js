@@ -66,7 +66,7 @@ describe('app', function () {
             });
         });
         it('should call isPalindrome fake function', function () {
-            expect(app.isPalindrome('aszd')).toEqual('FAKE FUNCTION');
+            expect(app.isPalindrome('asxd')).toEqual('FAKE FUNCTION');
         });
         it('should notice isPalindrome called second time when generateMessage called', function () {
             expect(app.generateMessage('ala')).toEqual({vowel: 2, palindrome: 'FAKE FUNCTION'});
